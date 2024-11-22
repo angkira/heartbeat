@@ -1,0 +1,3 @@
+struct Connector {
+    config: ServiceConfig,
+}

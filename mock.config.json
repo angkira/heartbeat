@@ -1,0 +1,62 @@
+{
+  "service1": {
+    "name": "Service One",
+    "protocol": "http",
+    "port": 8080,
+    "host": "localhost",
+    "api": "/api/v1/resource",
+    "request_message": "Requesting resource",
+    "success_message": "Resource retrieved successfully",
+    "period": 60,
+    "timeout": 30,
+    "retries": 3
+  },
+  "service2": {
+    "name": "Service Two",
+    "protocol": "https",
+    "port": 8443,
+    "host": "localhost",
+    "api": "/api/v1/resource",
+    "request_message": "Requesting resource",
+    "success_message": "Resource retrieved successfully",
+    "period": 60,
+    "timeout": 30,
+    "retries": 3
+  },
+  "service3": {
+    "name": "Service Three",
+    "protocol": "ws",
+    "port": 9000,
+    "host": "localhost",
+    "api": "/api/v1/resource",
+    "request_message": "Requesting resource",
+    "success_message": "Resource retrieved successfully",
+    "period": 60,
+    "timeout": 30,
+    "retries": 3
+  },
+  "service4": {
+    "name": "Service Four",
+    "protocol": "mqtt",
+    "port": 1883,
+    "host": "localhost",
+    "api": "/api/v1/resource",
+    "request_message": "Requesting resource",
+    "success_message": "Resource retrieved successfully",
+    "period": 60,
+    "timeout": 30,
+    "retries": 3
+  },
+  "service5": {
+    "name": "Service Five",
+    "protocol": "docker",
+    "port": 2375,
+    "host": "localhost",
+    "api": "/api/v1/resource",
+    "request_message": "Requesting resource",
+    "success_message": "Resource retrieved successfully",
+    "period": 60,
+    "timeout": 30,
+    "retries": 3
+  }
+}
